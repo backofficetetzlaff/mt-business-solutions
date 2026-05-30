@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manuel Tetzlaff | Backoffice & Vertriebsservice</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f8fb;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#4ba3e2,#2d5d89);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:white;
+    color:#2d5d89;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h2{
+    color:#2d5d89;
+    margin-bottom:25px;
+}
+
+.leistungen{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#4ba3e2;
+}
+
+.vorteile{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+footer{
+    background:#2d5d89;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    background:#4ba3e2;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Manuel Tetzlaff</h1>
+<p>Backoffice • Kundenservice • Vertriebsunterstützung</p>
+
+<a href="#kontakt" class="btn">
+Kostenloses Erstgespräch
+</a>
+</header>
+
+<section>
+<h2>Über mich</h2>
+
+<p>
+Als Groß- und Außenhandelskaufmann mit Weiterbildung zum Handelsfachwirt
+unterstütze ich Unternehmen bei administrativen Aufgaben,
+Kundenbetreuung und Vertriebsprozessen.
+
+Mit langjähriger Erfahrung im Vertriebsinnendienst,
+Angebotsmanagement und Kundenservice entlaste ich Unternehmen
+zuverlässig und professionell.
+</p>
+</section>
+
+<section>
+<h2>Meine Leistungen</h2>
+
+<div class="leistungen">
+
+<div class="card">
+<h3>Backoffice</h3>
+<p>
+E-Mail-Bearbeitung, Datenerfassung,
+Dokumentenmanagement und Terminplanung.
+</p>
+</div>
+
+<div class="card">
+<h3>Kundenservice</h3>
+<p>
+Telefonische Kundenbetreuung,
+Anfragenbearbeitung und Bestandskundenpflege.
+</p>
+</div>
+
+<div class="card">
+<h3>Vertriebsservice</h3>
+<p>
+Angebotserstellung, Nachverfolgung,
+CRM-Pflege und Vertriebsunterstützung.
+</p>
+</div>
+
+<div class="card">
+<h3>Administration</h3>
+<p>
+Organisation, Korrespondenz,
+Recherche und kaufmännische Unterstützung.
+</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Warum mit mir arbeiten?</h2>
+
+<div class="vorteile">
+
+<div class="card">
+<h3>20+ Jahre Erfahrung</h3>
+<p>Umfangreiche Kenntnisse im Vertrieb und Bürobereich.</p>
+</div>
+
+<div class="card">
+<h3>Zuverlässigkeit</h3>
+<p>Termintreue und strukturierte Arbeitsweise.</p>
+</div>
+
+<div class="card">
+<h3>Flexibilität</h3>
+<p>Unterstützung nach Bedarf – projektweise oder dauerhaft.</p>
+</div>
+
+</div>
+</section>
+
+<section id="kontakt">
+<h2>Kontakt</h2>
+
+<div class="contact">
+
+<form>
+
+<input type="text" placeholder="Name">
+
+<input type="email" placeholder="E-Mail">
+
+<textarea rows="5" placeholder="Ihre Nachricht"></textarea>
+
+<button type="submit">
+Anfrage senden
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+<h3>Manuel Tetzlaff</h3>
+<p>Backoffice & Vertriebsservice</p>
+<p>Herborn</p>
+</footer>
+
+</body>
+</html>
